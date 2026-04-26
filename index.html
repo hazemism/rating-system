@@ -8,8 +8,9 @@
       body {
         background-color: #14181c;
         color: #aabbcc;
+        margin: 0;
       }
-      .title {
+      .header {
         text-align: center;
       }
       .taste {
@@ -19,12 +20,29 @@
       .table {
         text-align: center;
       }
+      .views {
+        text-align: right;
+        font-size: large;
+        color: #556677;
+        margin-top: 2rem;
+      }
+      footer {
+        background-color: #2c3440;
+        margin-top: 1rem;
+        padding: 3rem 2rem;
+        font-size: 0.8rem;
+        color: #9ab;
+        font-weight: 600;
+      }
     </style>
   </head>
   <body>
     <!--title-->
-    <section class="title">
-      <h1>my rating system</h1>
+    <section class="header">
+      <header>
+        <h1>my rating system</h1>
+        <span class="views">views: <span id="views">0</span></span>
+      </header>
     </section>
     <!-- taste-->
     <section class="taste">
@@ -35,7 +53,7 @@
         something huge and hidden.
       </p>
     </section>
-
+    <!-- table-->
     <section class="table">
       <h1>table system</h1>
       <thead>
@@ -46,5 +64,23 @@
         </tr>
       </thead>
     </section>
+    <footer>
+      <p>inks</p>
+    </footer>
+    <!--views-->
+    <script>
+      let views = localStorage.getItem("views") || 0;
+
+      views++; // +1 every refresh
+
+      localStorage.setItem("views", views);
+
+      document.getElementById("views").innerText = formatViews(views);
+
+      function formatViews(num) {
+        if (num >= 1000) return (num / 1000).toFixed(1) + "k";
+        return num;
+      }
+    </script>
   </body>
 </html>
