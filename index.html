@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!--image-->
+    <img src="assets/image/stars.jpg" class="thumbnail" alt="stars" />
     <!--title-->
     <section class="header">
       <header>
-        <h1>my rating system</h1>
-        <span class="views">views: <span id="views">0</span></span>
+        <h1>my taste in movies</h1>
       </header>
     </section>
     <!-- taste-->
     <section class="taste">
       <p>
-        my taste in movies leans toward science-based stories that make me think
-        deeply.<br />I like films where the science isn’t just decoration, but
-        the core idea behind the plot<br />that give me the feeling there’s
-        something huge and hidden.
+        I’m into movies with real science that actually matters to the story.</br>
+        Not just there for show. I like stuff that makes me think and feels
+        kinda deep,</br>like there’s something bigger going on under the surface.
       </p>
     </section>
     <!-- table-->
@@ -37,20 +37,5 @@
     <footer>
       <p>inks</p>
     </footer>
-    <!--views-->
-    <script>
-      let views = localStorage.getItem("views") || 0;
-
-      views++; // +1 every refresh
-
-      localStorage.setItem("views", views);
-
-      document.getElementById("views").innerText = formatViews(views);
-
-      function formatViews(num) {
-        if (num >= 1000) return (num / 1000).toFixed(1) + "k";
-        return num;
-      }
-    </script>
   </body>
 </html>
