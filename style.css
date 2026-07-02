@@ -2,7 +2,7 @@ body {
   background-color: #14181c;
   color: #aabbcc;
   margin: 0;
-  font-style: italic;
+  font-family: "Caveat", cursive;
 }
 .header {
   text-align: center;
@@ -21,6 +21,12 @@ table {
   width: 80%;
   border-collapse: collapse;
   margin: auto;
+}
+
+.note {
+  font-size: medium;
+  margin-left: 10%;
+  width: 80%;
 }
 
 img {
