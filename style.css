@@ -32,7 +32,7 @@ table {
   width: 80%;
 }
 
-img {
+.stars {
   width: 5ex;
   height: auto;
 }
@@ -46,11 +46,23 @@ img {
 footer {
   background-color: #2c3440;
   color: #9ab;
-  height: 20ex;
+  height: 30ex;
 }
 
 .connections {
   display: flex;
   justify-content: center;
-  align-items: flex-start; 
+  align-items: flex-start;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.icons img {
+  width: 50px;
+  height: auto;
 }
