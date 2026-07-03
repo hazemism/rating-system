@@ -16,14 +16,14 @@ body {
   margin-right: 15%;
 }
 .mytable {
+  font-size: large;
   text-align: center;
 }
 
 table {
-  font-size: xx-large;
-  width: 80%;
   border-collapse: collapse;
-  margin: auto;
+  width: 80%;
+  margin:auto;
 }
 
 .note {
