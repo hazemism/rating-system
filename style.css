@@ -55,6 +55,12 @@ footer {
   align-items: flex-start;
 }
 
+.qoute {
+  font-size: xx-large;
+  text-align: center;
+  margin:15%;
+}
+
 .icons {
   display: flex;
   gap: 20px;
@@ -63,6 +69,6 @@ footer {
 }
 
 .icons img {
-  width: 50px; 
+  width: 50px;
   height: auto;
 }
