@@ -27,7 +27,6 @@ table {
   width: 80%;
   max-width: 100%;
   margin: auto;
-  table-layout: fixed;
 }
 .note {
   font-size: medium;
@@ -46,7 +45,6 @@ table {
 footer {
   background-color: #2c3440;
   color: #9ab;
-  height: 30ex;
 }
 .connections {
   display: flex;
@@ -63,10 +61,9 @@ footer {
   gap: 20px;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
 }
 .icons img {
-  width: 40px;
+  width: 60px;
   height: auto;
 }
 .song {
