@@ -58,12 +58,12 @@ footer {
 }
 .icons {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   align-items: flex-start;
 }
 .icons img {
-  width: 50px;
+  width: 40px;
   height: auto;
 }
 .song {
