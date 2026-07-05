@@ -71,5 +71,10 @@ footer {
   bottom: 10px;
   justify-content: center;
   margin-top: 10px;
-  margin-bottom: 20px;
+}
+.watching {
+  display: flex;
+  bottom: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
