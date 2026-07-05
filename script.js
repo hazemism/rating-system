@@ -4,10 +4,16 @@ fetch(
 )
   .then((res) => res.json())
   .then((data) => {
+    const song = document.getElementById("song");
     const track = data.recenttracks.track[0];
 
+    if (track["@attr"]?.nowplaying !== "true") {
+      song.style.display = "none";
+      return;
+    }
+
     document.getElementById("song").innerText =
-      "now listning to ---> " + track.name + " - " + track.artist["#text"];
+      "now listening to ---> " + track.name + " - " + track.artist["#text"];
   })
   .catch((error) => {
     document.getElementById("song").innerText = "none";
