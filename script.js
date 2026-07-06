@@ -13,7 +13,7 @@ fetch(
     }
 
     document.getElementById("song").innerText =
-      "• now listening to ---> " + track.name + " - " + track.artist["#text"];
+      "★ now listening to ---> " + track.name + " - " + track.artist["#text"];
   })
   .catch((error) => {
     document.getElementById("song").innerText = "";
@@ -42,9 +42,9 @@ fetch(`https://api.trakt.tv/users/${TRAKT_USERNAME}/watching`, {
     }
 
     if (data.type === "movie") {
-      trakt.textContent = `• watching ---> ${data.movie.title} (${data.movie.year})`;
+      trakt.textContent = `★ watching ---> ${data.movie.title} (${data.movie.year})`;
     } else if (data.type === "episode") {
-      trakt.textContent = `• watching ---> ${data.show.title} S${data.episode.season}E${data.episode.number}: ${data.episode.title}`;
+      trakt.textContent = `★ watching ---> ${data.show.title} S${data.episode.season}E${data.episode.number}: ${data.episode.title}`;
     } else {
       trakt.textContent = "";
     }
