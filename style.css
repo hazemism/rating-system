@@ -22,11 +22,24 @@ body {
   text-align: center;
   overflow-x: auto;
 }
+
 table {
   border-collapse: collapse;
-  width: 80%;
-  max-width: 100%;
   margin: auto;
+  width: 70%;
+  border: 1px solid;
+}
+th {
+  border-collapse: collapse;
+  margin: auto;
+  width: auto;
+  border: 1px solid;
+}
+td {
+  border-collapse: collapse;
+  margin: auto;
+  width: auto;
+  border: 1px solid;
 }
 .note {
   font-size: medium;
