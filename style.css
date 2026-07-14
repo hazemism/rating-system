@@ -40,12 +40,9 @@ table {
 }
 footer {
   background-color: #2c3440;
-  color: #9ab;
 }
 .connections {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  text-align: center;
 }
 .qoute {
   font-size: xx-large;
