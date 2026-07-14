@@ -12,10 +12,10 @@ body {
 }
 .taste {
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
   margin-bottom: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .mytable {
   font-size: x-large;
@@ -24,14 +24,14 @@ body {
 }
 table {
   border-collapse: collapse;
-  width: 70%;
+  width: 80%;
   max-width: 100%;
   margin: auto;
 }
 .note {
-  font-size: small;
-  margin-left: 15%;
-  width: 90%;
+  font-size: medium;
+  margin-left: 10%;
+  width: 80%;
 }
 .banner {
   width: 100%;
