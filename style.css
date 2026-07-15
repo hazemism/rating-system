@@ -30,8 +30,13 @@ a {
 table {
   border-collapse: collapse;
   margin: auto;
-  width: 70%;
+  width: 90%;
   border: 1px solid;
+}
+@media (min-width: 768px) {
+  table {
+    width: 50%;
+  }
 }
 th {
   border-collapse: collapse;
@@ -47,8 +52,9 @@ td {
 }
 .note {
   font-size: medium;
-  margin-left: 15%;
-  width: 70%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .banner {
   width: 100%;
