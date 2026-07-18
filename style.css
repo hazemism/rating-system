@@ -72,7 +72,7 @@ td {
 .quotes {
   font-size: xx-large;
   text-align: center;
-  margin: 10%;
+  margin: 10% 10%;
 }
 @media (max-width: 768px) {
   table {
@@ -82,7 +82,7 @@ td {
     font-size: large;
   }
   .note {
-    width: 50%;
+    width: 90%;
   }
   .quotes {
     font-size: large;
