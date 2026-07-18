@@ -74,7 +74,7 @@ td {
   text-align: center;
   margin: 10%;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   table {
     width: 50%;
   }
