@@ -79,13 +79,16 @@ td {
     width: 50%;
   }
   .mytable {
-    font-size: x-large;
+    font-size: large;
   }
   .note {
     width: 50%;
   }
   .quotes {
-    font-size: xx-large;
+    font-size: large;
+  }
+  .taste{
+    font-size: large;
   }
 }
 .icons {
