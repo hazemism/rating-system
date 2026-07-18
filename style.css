@@ -72,7 +72,7 @@ td {
 .quotes {
   font-size: xx-large;
   text-align: center;
-  margin: 10% 10%;
+  margin-top: 10%;
 }
 @media (max-width: 768px) {
   table {
