@@ -16,22 +16,22 @@ a {
 }
 .title {
   text-align: center;
-  font-size: xx-large;
   position: absolute;
-  color: white;
-  top: 50%;
+  font-size: xxx-large;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 255);
+  text-shadow:
+    0 0 10px #000,
+    0 0 5px rgb(255, 255, 255);
   width: 100%;
   pointer-events: none;
 }
 .taste {
   text-align: center;
   font-size: xx-large;
-  margin-bottom: 10%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin: 10% 20% 10% 20%;
 }
 .d1 {
   text-align: justify;
@@ -114,7 +114,7 @@ td {
 .quotes {
   font-size: xx-large;
   text-align: center;
-  margin-top: 10%;
+  margin: 10% 10%;
 }
 .icons {
   display: flex;
