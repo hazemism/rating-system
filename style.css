@@ -18,7 +18,7 @@ a {
   text-align: center;
   position: absolute;
   font-size: xxx-large;
-  top: 85%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(255, 255, 255);
@@ -104,7 +104,7 @@ td {
 }
 .banner {
   width: 100%;
-  height: 20ch;
+  height: 35ch;
   object-fit: cover;
 }
 .footer {
