@@ -39,6 +39,8 @@ a {
 }
 .concept {
   text-align: center;
+  font-size: xx-large;
+  margin: 10% 10%;
 }
 .f0 {
   display: flex;
@@ -46,26 +48,26 @@ a {
   justify-content: center;
 }
 .f1 {
-  width: 70px;
-  height: 100px;
+  width: 100px;
+  height: 150px;
   border-collapse: collapse;
   border: 1px solid;
 }
 .f2 {
-  width: 70px;
-  height: 100px;
+  width: 100px;
+  height: 150px;
   border-collapse: collapse;
   border: 1px solid;
 }
 .f3 {
-  width: 70px;
-  height: 100px;
+  width: 100px;
+  height: 150px;
   border-collapse: collapse;
   border: 1px solid;
 }
 .f4 {
-  width: 70px;
-  height: 100px;
+  width: 100px;
+  height: 150px;
   border-collapse: collapse;
   border: 1px solid;
 }
