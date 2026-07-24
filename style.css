@@ -112,6 +112,7 @@ td {
 }
 .connections {
   text-align: center;
+  font-size: x-large;
 }
 .quotes {
   font-size: xx-large;
@@ -126,6 +127,9 @@ td {
   gap: 10px;
   justify-content: center;
   align-items: flex-start;
+}
+.icons img:hover{
+  transform: scale(1.2);
 }
 .icons img {
   width: 60px;
