@@ -118,6 +118,9 @@ td {
   text-align: center;
   margin: 10% 10%;
 }
+.dune:active {
+  color: orange;
+}
 .icons {
   display: flex;
   gap: 10px;
