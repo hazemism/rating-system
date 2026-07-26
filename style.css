@@ -19,11 +19,10 @@ a {
 .header-container {
   position: relative;
 }
-.title {
+#title {
   text-align: center;
   position: absolute;
-  font-size: xxx-large;
-  top: 90%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(255, 255, 255);
@@ -45,30 +44,12 @@ a {
   text-align: center;
   margin: 10% 10%;
 }
-.f0 {
+.contaner-frames {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
-.f1 {
-  width: 100px;
-  height: 150px;
-  border-collapse: collapse;
-  border: 1px solid;
-}
-.f2 {
-  width: 100px;
-  height: 150px;
-  border-collapse: collapse;
-  border: 1px solid;
-}
-.f3 {
-  width: 100px;
-  height: 150px;
-  border-collapse: collapse;
-  border: 1px solid;
-}
-.f4 {
+.frame {
   width: 100px;
   height: 150px;
   border-collapse: collapse;
