@@ -59,7 +59,9 @@ a {
   text-align: center;
   overflow-x: auto;
 }
-
+.stable {
+  margin-bottom: 5%;
+}
 table {
   border-collapse: collapse;
   margin: auto;
@@ -101,7 +103,7 @@ td {
   text-align: center;
   margin: 10% 10%;
 }
-.dune{
+.dune {
   text-shadow: 1px 1px #aabbcc;
 }
 .dune:hover {
