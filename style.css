@@ -108,7 +108,7 @@ td {
 }
 .dune:hover {
   color: orange;
-  letter-spacing: 100%;
+  letter-spacing: 50%;
 }
 .icons {
   display: flex;
@@ -135,25 +135,36 @@ td {
   justify-content: center;
   margin-bottom: 10px;
 }
-.last2{
+.last2 {
   float: right;
 }
 
 @media (max-width: 768px) {
+  body {
+    font-size: large;
+  }
+  .frame {
+    height: auto;
+  }
+  .banner {
+    height: none;
+  }
   table {
     width: 90%;
   }
-  .mytable {
-    font-size: large;
-  }
   .note {
     width: 90%;
+    margin-bottom: 20%;
   }
   .quotes {
-    font-size: large;
+    width: auto;
+    margin: auto;
+    margin-bottom: 20%;
   }
   .taste {
-    font-size: large;
+    width: 90%;
+    margin: auto;
+    margin-top: 20%;
   }
   .icons img {
     width: 40px;
