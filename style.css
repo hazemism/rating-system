@@ -135,6 +135,9 @@ td {
   justify-content: center;
   margin-bottom: 10px;
 }
+.last2{
+  float: right;
+}
 
 @media (max-width: 768px) {
   table {
