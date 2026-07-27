@@ -1,6 +1,6 @@
 body {
   background-color: #14181c;
-  color: #abc;
+  color: #a8b2bd;
   margin: 0;
   font-family: "Caveat", cursive;
   font-style: normal;
@@ -39,6 +39,7 @@ a {
 .d1 {
   text-align: justify;
   word-spacing: 2rem;
+  padding: 20px;
 }
 .concept {
   text-align: center;
@@ -52,7 +53,6 @@ a {
 .frame {
   width: 100px;
   height: 150px;
-  border-collapse: collapse;
   border: 1px solid;
 }
 .mytable {
@@ -69,13 +69,8 @@ table {
   border: 1px solid;
 }
 
+td,
 th {
-  border-collapse: collapse;
-  margin: auto;
-  width: auto;
-  border: 1px solid;
-}
-td {
   border-collapse: collapse;
   margin: auto;
   width: auto;
@@ -107,7 +102,7 @@ td {
   text-shadow: 1px 1px #abc;
 }
 .dune:hover {
-  color:hsl(30,100%, 50%);
+  color: hsl(30, 100%, 50%);
   letter-spacing: 50%;
 }
 .icons {
