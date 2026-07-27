@@ -56,3 +56,27 @@
   inset: 0;
   z-index: 10;
 }
+
+@media (max-width: 800px) {
+  .icons img {
+    width: 40px;
+    height: auto;
+  }
+
+  #serializd {
+    width: 40px;
+    height: 40px;
+    #mini {
+      top: 20px;
+      left: 20px;
+      width: 30px;
+      height: 8px;
+      #line {
+        top: 5px;
+        left: 5px;
+        width: 20px;
+        height: 1.5px;
+      }
+    }
+  }
+}
