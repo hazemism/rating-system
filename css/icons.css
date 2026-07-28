@@ -171,6 +171,35 @@
     color: #02a9ff;
   }
 }
+/*<------------------------------imdb------------------------------>*/
+.imdb {
+  width: 60px;
+  height: 60px;
+  border-radius: 25%;
+  background-color: #202830;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  .name {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    -webkit-text-stroke: 1px currentColor;
+  }
+}
+.imdb:hover {
+  transform: scale(1.2);
+  background-color: #f6c700;
+  .name {
+    color: black;
+  }
+}
+.imdb a {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+}
 /*<------------------------------mobile------------------------------>*/
 @media (max-width: 800px) {
   .icons img {
@@ -224,5 +253,9 @@
     .l {
       bottom: 1px;
     }
+  }
+  .imdb {
+    width: 40px;
+    height: 40px;
   }
 }
