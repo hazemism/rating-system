@@ -128,7 +128,44 @@
     background-image: linear-gradient(to right, #90cea1, #01b4e4);
   }
 }
-
+/*<------------------------------anilist------------------------------>*/
+.anilist {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #202830;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  .a,
+  .l {
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    font-size: 180%;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px currentColor;
+  }
+  .a {
+    transform: translateX(-20%);
+    z-index: 1;
+  }
+  .l {
+    transform: translateX(40%);
+  }
+}
+.anilist:hover {
+  transform: scale(1.2);
+  background-color: #1e2630;
+  .a {
+    color: #fefefe;
+  }
+  .l {
+    color: #02a9ff;
+  }
+}
 /*<------------------------------mobile------------------------------>*/
 @media (max-width: 800px) {
   .icons img {
@@ -174,5 +211,13 @@
   .tmdb {
     width: 40px;
     height: 40px;
+  }
+  .anilist {
+    width: 40px;
+    height: 40px;
+    .a,
+    .l {
+      bottom: 1px;
+    }
   }
 }
