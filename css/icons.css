@@ -156,6 +156,11 @@
     transform: translateX(40%);
   }
 }
+.anilist a {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+}
 .anilist:hover {
   transform: scale(1.2);
   background-color: #1e2630;
