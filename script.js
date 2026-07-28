@@ -34,7 +34,7 @@ fetch(`https://api.trakt.tv/users/${TRAKT_USERNAME}/watching`, {
 })
   .then((res) => (res.status === 204 ? null : res.json()))
   .then((data) => {
-    const trakt = document.getElementById("trakt-now");
+    const trakt = document.getElementById("watch");
 
     if (!data) {
       trakt.textContent = "";
