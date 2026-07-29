@@ -4,13 +4,6 @@
   justify-content: center;
   align-items: flex-start;
 }
-.icons img:hover {
-  transform: scale(1.2);
-}
-.icons img {
-  width: 60px;
-  height: auto;
-}
 
 /*<------------------------------tmdb------------------------------>*/
 
