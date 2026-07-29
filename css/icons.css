@@ -11,6 +11,36 @@
   width: 60px;
   height: auto;
 }
+
+/*<------------------------------tmdb------------------------------>*/
+
+.tmdb {
+  width: 60px;
+  height: 60px;
+  border-radius: 25%;
+  background-color: #202830;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .thing {
+    width: 70%;
+    height: 25%;
+    border-radius: 20px;
+    background-color: #ffffff;
+  }
+}
+.tmdb:hover {
+  transform: scale(1.2);
+  background-color: #0d253f;
+  .thing {
+    background-image: linear-gradient(to right, #90cea1, #01b4e4);
+  }
+}
+.tmdb a {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+}
 #serializd {
   width: 60px;
   height: 60px;
@@ -104,30 +134,6 @@
   position: absolute;
   inset: 0;
   z-index: 10;
-}
-/*<------------------------------tmdb------------------------------>*/
-
-.tmdb {
-  width: 60px;
-  height: 60px;
-  border-radius: 25%;
-  background-color: #202830;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .thing {
-    width: 70%;
-    height: 25%;
-    border-radius: 20px;
-    background-color: #ffffff;
-  }
-}
-.tmdb:hover {
-  transform: scale(1.2);
-  background-color: #0d253f;
-  .thing {
-    background-image: linear-gradient(to right, #90cea1, #01b4e4);
-  }
 }
 /*<------------------------------anilist------------------------------>*/
 .anilist {
