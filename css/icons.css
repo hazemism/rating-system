@@ -64,6 +64,7 @@
   height: 60px;
   border-radius: 50%;
   background-color: #202830;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
