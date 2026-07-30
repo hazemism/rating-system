@@ -38,38 +38,40 @@
     background-image: linear-gradient(to right, #90cea1, #01b4e4);
   }
 }
-#serializd {
+/*<------------------------------serializd------------------------------>*/
+
+.serializd {
   border-radius: 100%;
-  #mini {
+  .mini {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%) rotate(120deg);
-    width: 45px;
-    height: 10px;
+    width: 80%;
+    height: 20%;
     border-radius: 20px;
     background-color: #ffffff;
     box-shadow: -0px -1.5px rgba(0, 0, 0, 0.3);
 
-    #line {
+    .line {
       position: absolute;
-      top: 6px;
-      left: 5px;
-      width: 35px;
-      height: 3px;
+      top: 60%;
+      left: 10%;
+      width: 75%;
+      height: 20%;
       border-radius: 20px;
       background-color: white;
     }
   }
 }
-#serializd:hover {
+.serializd:hover {
   transform: scale(1.2);
   background-color: #44bba4;
-  #mini {
+  .mini {
     background-color: #99ffff;
     box-shadow: -0px -1.5px rgba(0, 0, 0, 0.3);
   }
-  #line {
+  .line {
     background-color: white;
   }
 }
@@ -164,21 +166,9 @@
     height: auto;
   }
 
-  #serializd {
+  .serializd {
     width: 40px;
     height: 40px;
-    #mini {
-      top: 20px;
-      left: 20px;
-      width: 30px;
-      height: 8px;
-      #line {
-        top: 5px;
-        left: 5px;
-        width: 20px;
-        height: 1.5px;
-      }
-    }
   }
   /*letterboxd*/
   .letterboxd {
