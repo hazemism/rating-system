@@ -5,9 +5,7 @@
   align-items: flex-start;
 }
 
-/*<------------------------------tmdb------------------------------>*/
-
-.tmdb {
+.icons > * {
   width: 60px;
   height: 60px;
   border-radius: 25%;
@@ -16,6 +14,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  a {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+  }
+}
+
+/*<------------------------------tmdb------------------------------>*/
+
+.tmdb {
   .thing {
     width: 70%;
     height: 25%;
@@ -30,18 +38,8 @@
     background-image: linear-gradient(to right, #90cea1, #01b4e4);
   }
 }
-.tmdb a {
-  position: absolute;
-  inset: 0;
-  z-index: 10;
-}
 #serializd {
-  width: 60px;
-  height: 60px;
   border-radius: 100%;
-  background-color: #202830;
-  position: relative;
-
   #mini {
     position: absolute;
     top: 30px;
@@ -75,23 +73,10 @@
     background-color: white;
   }
 }
-#serializd a {
-  position: absolute;
-  inset: 0;
-  z-index: 10;
-}
-
 /*<------------------------------letterboxd------------------------------>*/
 
 .letterboxd {
-  width: 60px;
-  height: 60px;
   border-radius: 50%;
-  background-color: #202830;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   .circle {
     width: 20px;
     height: 20px;
@@ -124,21 +109,9 @@
     }
   }
 }
-.letterboxd a {
-  position: absolute;
-  inset: 0;
-  z-index: 10;
-}
 /*<------------------------------anilist------------------------------>*/
 .anilist {
-  width: 60px;
-  height: 60px;
   border-radius: 50%;
-  background-color: #202830;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
   .a,
   .l {
     color: #ffffff;
@@ -157,11 +130,6 @@
     transform: translateX(40%);
   }
 }
-.anilist a {
-  position: absolute;
-  inset: 0;
-  z-index: 10;
-}
 .anilist:hover {
   transform: scale(1.2);
   background-color: #1e2630;
@@ -174,14 +142,6 @@
 }
 /*<------------------------------imdb------------------------------>*/
 .imdb {
-  width: 60px;
-  height: 60px;
-  border-radius: 25%;
-  background-color: #202830;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
   .name {
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -196,11 +156,6 @@
   .name {
     color: black;
   }
-}
-.imdb a {
-  position: absolute;
-  inset: 0;
-  z-index: 10;
 }
 /*<------------------------------mobile------------------------------>*/
 @media (max-width: 800px) {
@@ -251,7 +206,7 @@
   .imdb {
     width: 40px;
     height: 40px;
-    .name{
+    .name {
       font-size: 1rem;
     }
   }
