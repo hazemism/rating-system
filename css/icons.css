@@ -144,7 +144,7 @@
     color: #ffffff;
     position: absolute;
     bottom: 0;
-    font-size: 180%;
+    font-size: 3rem;
     font-weight: 900;
     text-transform: uppercase;
     -webkit-text-stroke: 2px currentColor;
@@ -184,6 +184,7 @@
   justify-content: center;
   .name {
     text-transform: uppercase;
+    font-size: 1.5rem;
     color: white;
     font-weight: 900;
     -webkit-text-stroke: 1px currentColor;
@@ -231,14 +232,6 @@
     .circle {
       width: 13px;
       height: 13px;
-      background-color: #ffffff;
-
-      &:first-child {
-        transform: translateX(-80%);
-      }
-      &:nth-child(3) {
-        transform: translateX(80%);
-      }
     }
   }
   /*<------------------------------tmdb------------------------------>*/
@@ -252,11 +245,14 @@
     height: 40px;
     .a,
     .l {
-      bottom: 1px;
+      font-size: 2rem;
     }
   }
   .imdb {
     width: 40px;
     height: 40px;
+    .name{
+      font-size: 1rem;
+    }
   }
 }
