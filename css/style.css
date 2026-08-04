@@ -1,6 +1,6 @@
 body {
-  background-color: #14181c;
-  color: #aabbcc;
+  background-color: var(--main-color);
+  color: var(--color-font);
   margin: 0;
   font-family: "Caveat", cursive;
   font-style: normal;
@@ -13,7 +13,7 @@ body {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><filter id="n"><feTurbulence baseFrequency="0.9" numOctaves="1" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/></filter><rect width="100" height="100" filter="url(%23n)" opacity="0.15"/></svg>');
 }
 a {
-  color: #abc;
+  color: var(--color-font);
   text-decoration: none;
 }
 .header-container {
@@ -25,10 +25,10 @@ a {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: hsl(360, 100%, 100%);
+  color: var(--color-title);
   text-shadow:
-    0 0 10px rgb(0, 0, 0),
-    0 0 5px rgb(255, 255, 255);
+    0 0 10px var(--color-option),
+    0 0 5px var(--color-title);
   width: 100%;
   pointer-events: none;
 }
@@ -89,7 +89,7 @@ th {
   object-fit: cover;
 }
 .footer {
-  background-color: #2c3440;
+  background-color: var(--footer-color);
 }
 .connections {
   text-align: center;
@@ -99,7 +99,7 @@ th {
   margin: 10% 10%;
 }
 .dune {
-  text-shadow: 1px 1px #abc;
+  text-shadow: 1px 1px var(--color-font);
 }
 .dune:hover {
   color: hsl(30, 100%, 50%);
