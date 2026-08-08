@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: "Caveat", cursive;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: bold;
   font-variant: normal;
   text-transform: lowercase;
@@ -51,8 +51,9 @@ a {
   justify-content: center;
 }
 .frame {
+  font-size: 3vw;
   width: 100px;
-  height: 150px;
+  height:  15vw;
   border: 1px solid;
 }
 .mytable {
@@ -122,12 +123,6 @@ th {
 }
 
 @media (max-width: 800px) {
-  body {
-    font-size: 1rem;
-  }
-  .frame {
-    height: auto;
-  }
   .banner {
     height: none;
   }
