@@ -33,13 +33,17 @@ a {
   pointer-events: none;
 }
 .taste {
-  text-align: center;
-  margin: 10% 20% 10% 20%;
-}
-.d1 {
-  text-align: justify;
-  word-spacing: 2rem;
-  padding: 20px;
+  display: flex;
+  margin: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .t-taste {
+    font-size: xx-large;
+  }
+  .d-taste {
+    word-spacing: 2rem;
+  }
 }
 .concept {
   text-align: center;
@@ -53,7 +57,7 @@ a {
 .frame {
   font-size: 3vw;
   width: 100px;
-  height:  15vw;
+  height: 15vw;
   border: 1px solid;
 }
 .mytable {
@@ -137,11 +141,6 @@ th {
     width: auto;
     margin: auto;
     margin-bottom: 20%;
-  }
-  .taste {
-    width: 90%;
-    margin: auto;
-    margin-top: 20%;
   }
   .icons img {
     width: 40px;
