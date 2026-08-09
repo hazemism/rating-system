@@ -19,6 +19,11 @@ a {
 .header-container {
   position: relative;
 }
+.banner {
+  width: 100%;
+  height: 20ch;
+  object-fit: cover;
+}
 #title {
   text-align: center;
   position: absolute;
@@ -87,11 +92,6 @@ th {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-}
-.banner {
-  width: 100%;
-  height: 20ch;
-  object-fit: cover;
 }
 .footer {
   background-color: var(--footer-color);
