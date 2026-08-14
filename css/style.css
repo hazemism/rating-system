@@ -43,7 +43,7 @@ body {
     font-size: xx-large;
   }
   .d-taste {
-    word-spacing: 2rem;
+    word-spacing: 1.5rem;
   }
 }
 .concept {
@@ -128,6 +128,9 @@ th {
 }
 
 @media (max-width: 800px) {
+  body{
+    font-size: larger;
+  }
   .banner {
     height: none;
   }
