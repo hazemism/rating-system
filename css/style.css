@@ -1,4 +1,5 @@
 body {
+  display: grid;
   background-color: var(--main-color);
   color: var(--color-font);
   margin: 0;
@@ -48,7 +49,7 @@ body {
 }
 .concept {
   text-align: center;
-  margin: 10% 10%;
+  margin: 20% 20%;
 }
 .contaner-frames {
   display: flex;
@@ -56,9 +57,11 @@ body {
   justify-content: center;
 }
 .frame {
+  display: flex;
+  align-items: center;
   font-size: 3vw;
-  width: 100px;
-  height: 15vw;
+  width: 15vw;
+  height: 20vw;
   border: 1px solid;
 }
 .mytable {
@@ -102,7 +105,7 @@ th {
 .dune {
   color: var(--color-font);
   text-decoration: none;
-  transition:letter-spacing 0.5s ease;
+  transition: letter-spacing 0.5s ease;
 }
 .dune:hover {
   color: hsl(30, 100%, 50%);
@@ -120,7 +123,7 @@ th {
   justify-content: center;
   margin-bottom: 10px;
 }
-.name{
+.name {
   color: var(--color-font);
 }
 .last2 {
@@ -128,7 +131,7 @@ th {
 }
 
 @media (max-width: 800px) {
-  body{
+  body {
     font-size: larger;
   }
   .banner {
