@@ -59,9 +59,9 @@ body {
 .frame {
   display: flex;
   align-items: center;
-  font-size: 3vw;
-  width: 15vw;
-  height: 20vw;
+  font-size: 5vw;
+  width: 20vw;
+  height: 35vw;
   border: 1px solid;
 }
 .mytable {
@@ -152,5 +152,12 @@ th {
   .icons img {
     width: 40px;
     height: auto;
+  }
+  .taste{
+    margin: 5%;
+    margin-top: 20%;
+  }
+  .frame{
+    width: ;
   }
 }
