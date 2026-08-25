@@ -48,20 +48,24 @@ body {
   }
 }
 .concept {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  margin: 20% 20%;
+  justify-content: center;
+  margin: auto;
+  width: fit-content;
 }
 .contaner-frames {
-  display: flex;
+  display: flex;  display: flex;
   gap: 20px;
-  justify-content: center;
 }
 .frame {
   display: flex;
   align-items: center;
-  font-size: 5vw;
-  width: 20vw;
-  height: 35vw;
+  font-size: 3vw;
+  width: 13.5vw;
+  height: 25vw;
+  margin-bottom: 20%;
   border: 1px solid;
 }
 .mytable {
@@ -156,5 +160,9 @@ th {
   .taste{
     margin: 5%;
     margin-top: 20%;
+  }
+  .frame{
+    width: 18.5vw;
+    height: 30vw;
   }
 }
