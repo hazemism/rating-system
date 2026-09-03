@@ -56,7 +56,8 @@ body {
   width: fit-content;
 }
 .contaner-frames {
-  display: flex;  display: flex;
+  display: flex;
+  display: flex;
   gap: 20px;
 }
 .frame {
@@ -133,6 +134,19 @@ th {
 .last2 {
   float: right;
 }
+nav {
+  display: flex;
+  gap: 20%;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
 
 @media (max-width: 800px) {
   body {
@@ -157,11 +171,11 @@ th {
     width: 40px;
     height: auto;
   }
-  .taste{
+  .taste {
     margin: 5%;
     margin-top: 20%;
   }
-  .frame{
+  .frame {
     width: 18.5vw;
     height: 30vw;
   }
